@@ -1,0 +1,554 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine"');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+body {
+    font-family: "Helvetica Neue";
+    padding: 0 10px 10px 10px;
+    margin-top: 0px;
+}
+
+
+/*Title Section*/
+
+.title {
+    width: 100%;
+}
+h2 {
+    margin-top: 10px;
+    margin-bottom: 11px;
+    font-size: 27px;
+    font-weight: 500;
+
+}
+
+.minutes {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 11px;
+}
+.table1 {
+    font-size: 15px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.table1 > p {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.table2 > p {
+    margin-top: 0px;
+}
+
+.blue {
+    color: #415F99;
+}
+
+.darkgrey {
+    color: #464A4C;
+}
+.table2 {
+    font-family: "Fira Sans";
+    font-size: 12px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bigImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Block section*/
+.block {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    margin-bottom: 15px;
+}
+
+.border {
+    width: 47px;
+    flex-shrink: 0;
+    background-color: #FFC0C0;
+    padding: 3px;
+    margin-right: 13px;
+}
+
+.number {
+    color: white;
+    background-color: #FF5858;
+    font-family: "Lobster";
+    font-size:40px;
+    font-weight: 400;
+    padding: 18px 5px 18px 10px;
+}
+
+.blockText {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+div.blockText > p {
+    margin-bottom: 0px;
+}
+
+h3 {
+    margin: 0px;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+
+.bottomImage {
+    margin: 0;
+}
+
+
+/*Comment Sections*/
+.commentBlock {
+    display: flex;
+    flex-direction: column;
+}
+.user {
+    display: flex;
+    flex-direction: row;
+}
+
+.picture {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+}
+.userCountry {
+    position: absolute;
+    bottom: -4px;
+    right: -4px;
+}
+
+.picture > img {
+    margin: 0px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.userName {
+    align-self:flex-start;
+    margin-top: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    border-bottom: 1px dashed;
+    margin-bottom: 5px;
+}
+
+.timeOnline {
+    margin: 5px 0;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #868695;
+}
+
+.grey {
+    margin: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #868695;
+}
+
+.black {
+    color: black;
+}
+.commentText {
+    margin: 10px 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+ }
+.images {
+    display: flex;
+    flex-direction: row;
+}
+.commentPic {
+    margin: 5px 16px 5px 0;
+}
+.rate {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+}
+.numberRate {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0 15px 0 0;
+}
+
+.rate img {
+    align-self: flex-start;
+    margin-right: 5px;
+}
+.dots {
+    margin: 0 0 0 auto;
+}
+
+.commentBottom {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.arrow {
+    margin-top: 8px;
+    margin-left: 12px;
+}
+
+.commentBottom > p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #868695;
+    margin: 5px 5px;
+}
+
+.greySpace {
+    width: 100vw;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    /*max-width: 100%;*/
+    height: 15px;
+    background-color: #f6f6f9;
+    margin-bottom: 20px;
+}
+
+.footer {
+    height: 70px;
+}
+
+
+
+
+
+/*Nav Carousel and Article Sections*/
+nav {
+    width: 100vw;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.nav{
+    width: 100%;
+}
+
+.topbar {
+    width: 100%;
+    background-color: #C22424;
+    display: flex;
+    flex-direction: row;
+}
+
+.menuPNG {
+    height: 12px;
+    margin: 9px;
+}
+
+.энциклопедия {
+    color: white;
+    margin: 6px 3px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Fira Sans", serif;
+
+}
+
+.searchPNG {
+    height: 1.1em;
+    position: absolute;
+    right: 5px;
+    margin: 6px;
+}
+
+.navv {
+    height: 2%;
+    margin: 0;
+    padding: 0 1.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #F7F7F7;
+
+}
+
+.navv > div {
+    margin: 0 5%;
+}
+
+.navv a{
+    margin-left: 0;
+    text-decoration: none;
+    color: #292B2C;
+    font-size: 15px;
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    line-height: 18.5px;
+;
+}
+
+.arrowRight{
+    color: #a9a8a8;
+}
+
+.text{
+    width: 95%;
+    margin: auto;
+    font-family: "Helvetica Neue", serif;
+    line-height: 23px;
+    color: #292B2C;
+    margin-bottom: 30px;
+}
+.articleTitle{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.articleText{
+    width: 100%;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.carousel{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.element{
+    height: 159.86px;
+    width: 110.04px;
+    left: 2px;
+    top: 44.46px;
+    margin: 0.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circle{
+    width: 110px;
+    top: 0;
+
+}
+
+.label {
+    font-family: "Pacifico", serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 13px;
+    line-height: 10px;
+    color: #777777;
+    width: 95px;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+.fixed {
+    width: 100vw;
+    min-width: 390px;
+    margin-left: 50%;
+    height: 70px;
+    transform: translateX(-54%);
+    bottom: 0px;  /* you can delete these two lines if you want the position as it is */
+    position:fixed;
+    margin-top: 0;
+
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    background-color: #F7F7F7;
+
+}
+
+.blockDisplay {
+    width: 50%;
+    display: block;
+}
+.pills{
+    height: 50px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.namePills{
+    flex-shrink: 0;
+    margin: 0 0 2px 4%;
+    align-self: flex-start;
+    font-size: 10px;
+    font-weight: 400;
+    font-family: "Fira Sans", serif;
+}
+
+.pricePills{
+    margin: 0 0 0 4%;
+    color: slategray;
+    font-size: 10px;
+    font-weight: 400;
+    font-family: "Fira Sans", serif;
+}
+
+
+.buttonBuy{
+    width: 25%;
+    height: 30px;
+    position: absolute;
+    right: 1%;
+    margin: 10px 6%;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Fira Sans", serif;
+    background-color: #C22424;
+    color: #F7F7F7;
+    border: none;
+    border-radius: 20px;
+}
+
+
+
+/*Popup*/
+
+, *::after, *::before {
+      box-sizing: border-box;
+  }
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 2px solid #C22424;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: white;
+    width: 350px;
+    max-width: 100%;
+    overflow: scroll;
+}
+
+.modal.active {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header {
+    font-family: "Helvetica Neue";
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    background-color: #C22424;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    /*border-bottom: 1px solid black;*/
+}
+
+.modal-header .titleModal {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.modal-header .close-button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    right: 10px;
+}
+
+.modal-body {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #898989;
+    flex-direction: column;
+    padding: 10px 15px;
+}
+
+#overlay {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    pointer-events: none;
+}
+
+#overlay.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.buttonBuy2{
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    background-color: #C22424;
+    color: #F7F7F7;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
